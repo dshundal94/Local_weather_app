@@ -1,0 +1,73 @@
+h1 {
+  font-family: Lato Medium;
+  font-type: Bold;
+  color: black;
+  text-align: center;
+  text-shadow: 0px 2px 3px #666;
+  margin-bottom: 5px;
+}
+#title { 
+  font-family: Lato Light;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+h2 { 
+  font-family: Lato Medium;
+  font-type: Bold;
+  color: black;
+  text-align: center;
+  text-shadow: 0px 2px 3px #666;
+  margin-top: 50px;
+}
+#block_container
+{
+    text-align:center;
+}
+#icon, #temp
+{
+    display:inline;
+}
+img.icon { 
+  width: 5em; 
+}
+
+p {
+  font-family: Lato Medium;
+  font-size: 30px;
+  font-style: Italic;
+  color: black;
+  text-align: center;
+  text-shadow: 0px 2px 3px #666;
+  text-transform: capitalize;
+}
+
+.square {
+  margin: 0 auto;
+  position: absolute;
+  width: 100%;
+  border: 5px solid black ;
+}
+.square:after {
+  content: "";
+  display: inline-block;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+#temp { 
+  font-family: Lato;
+  font-size: 24px;
+  color: black;
+  text-shadow: 0px 2px 3px #666
+}
+#toF {
+ position: absolute;
+  top: 10px;
+  right: 25px; 
+}
+
+#toC {
+  position: absolute;
+  top: 10px;
+  left: 25px; 
+}
+
